@@ -30,14 +30,14 @@ export const Card = () => {
                         ({data.reviewCount}) - {data.country}
                     </Text>
                 </Box>
-                <Text fontSize="12px" fontFamily="Poppins" fontWeight="300" pt="8px">
+                <Text fontSize="12px" fontFamily="Poppins" pt="8px">
                     {data.title}
                 </Text>
                 <Box display="flex" pt="8px">
                     <Text fontSize="12px" fontWeight="600" fontFamily="Poppins">
                         From ${data.price}
                     </Text>
-                    <Text fontSize="12px" fontWeight="300" fontFamily="Poppins">
+                    <Text fontSize="12px" fontFamily="Poppins">
                         &nbsp;/ person
                     </Text>
                 </Box>
